@@ -3,8 +3,9 @@ A python based selenium framework
 
 I've created a comprehensive Python Selenium testing framework with the following architecture and features:
 Framework Structure
-Core Components:
 
+
+Core Components:
 Config Management: Environment-based configuration with default values
 Driver Factory: Automated driver creation with optimized settings for Chrome, Firefox, and Edge
 Base Driver: Common WebDriver operations with enhanced error handling
@@ -48,7 +49,7 @@ Frame/window switching
 JavaScript execution
 Shadow DOM ready (from previous artifact)
 
-Usage Examples
+# Usage Examples
 bash# Basic test run
 pytest tests/ -v --html=reports/report.html
 
@@ -63,8 +64,9 @@ pytest tests/ -n 4 -v
 
 # Specific test
 pytest tests/test_login.py::TestLogin::test_successful_login -v
-Framework Benefits
 
+
+# Framework Benefits
 Maintainable: Clear separation of page logic and test logic
 Scalable: Easy to add new pages and tests
 Reliable: Built-in waits and error handling
