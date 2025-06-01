@@ -1,3 +1,7 @@
+from pages.base_page import BasePage
+from selenium.webdriver.common.by import By
+import logging
+logger = logging.getLogger(__name__)
 class HomePage(BasePage):
     """Home page implementation"""
     

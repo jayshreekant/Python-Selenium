@@ -1,3 +1,7 @@
+from test_base.base_test import BaseTest
+import logging
+logger = logging.getLogger(__name__)
+
 class TestHomePage(BaseTest):
     """Home page functionality tests"""
     

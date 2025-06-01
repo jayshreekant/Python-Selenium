@@ -1,3 +1,8 @@
+from test_base.base_test import BaseTest
+from pages.base_page import BasePage
+import logging
+logger = logging.getLogger(__name__)
+
 class TestLogin(BaseTest):
     """Login functionality tests"""
     
